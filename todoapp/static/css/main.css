@@ -1,0 +1,51 @@
+body {
+    background-color: #eb471f;
+}
+input{
+    width: 96%;
+    padding: 12px 30px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+}
+input::placeholder{
+    color: #d3d3d3;
+}
+.submit{
+    background-color: #6BA3E8;
+}
+.center-column{
+    width: 680px;
+    margin: 140px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow:  6px 2px 30px 0px rgba(0,0,0,0.75);
+}
+.item-row{
+    background-color: #08b777;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+    width: 70%;
+    position:relative;
+}
+.btn-danger{
+    background-color: #ee0629;
+    border-color: #06ee45;
+}
+.btn-primary {
+    background-color: #1feb50;
+    border-color: #eb1f8e;
+}
+.todo-button {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -50px;
+}
+
+.strike_item {
+    color : #c70039;
+}
